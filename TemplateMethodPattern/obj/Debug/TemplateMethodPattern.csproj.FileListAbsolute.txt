@@ -3,3 +3,8 @@ c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODes
 c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\bin\Debug\OODesignTraining.pdb
 c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\obj\Debug\OODesignTraining.dll
 c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\obj\Debug\OODesignTraining.pdb
+C:\dev\me\OODesignTraining\OODesignTraining\bin\Debug\OODesignTraining.dll
+C:\dev\me\OODesignTraining\OODesignTraining\bin\Debug\OODesignTraining.pdb
+C:\dev\me\OODesignTraining\OODesignTraining\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\me\OODesignTraining\OODesignTraining\obj\Debug\OODesignTraining.dll
+C:\dev\me\OODesignTraining\OODesignTraining\obj\Debug\OODesignTraining.pdb

@@ -1,0 +1,5 @@
+C:\dev\me\OODesignTraining\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\me\OODesignTraining\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\dev\me\OODesignTraining\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\dev\me\OODesignTraining\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\dev\me\OODesignTraining\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
