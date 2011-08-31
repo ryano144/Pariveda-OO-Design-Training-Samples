@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "OODesignTraining\TemplateMethodPattern.csproj", "{18B3663E-443E-485F-A73B-9D3A9DAF0AA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{18B3663E-443E-485F-A73B-9D3A9DAF0AA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "ClassLibrary1\FacadePattern.csproj", "{0E5B7FA6-A14F-4F01-9E78-04D55DCBC00D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{0E5B7FA6-A14F-4F01-9E78-04D55DCBC00D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
