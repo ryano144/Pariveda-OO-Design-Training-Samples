@@ -1,0 +1,5 @@
+c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\bin\Debug\OODesignTraining.dll
+c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\bin\Debug\OODesignTraining.pdb
+c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\obj\Debug\OODesignTraining.dll
+c:\users\ryan.gross\documents\visual studio 2010\Projects\OODesignTraining\OODesignTraining\obj\Debug\OODesignTraining.pdb
