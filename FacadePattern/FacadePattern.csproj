@@ -40,15 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\NoFacade\WeightSensor.cs" />
+    <Compile Include="Interface\IFuelPump.cs" />
+    <Compile Include="Interface\ISecurityFacade.cs" />
+    <Compile Include="Client\Facade\RemoteStartController.cs" />
+    <Compile Include="Interface\IDashboardGuages.cs" />
+    <Compile Include="Interface\IAutomaticWindows.cs" />
+    <Compile Include="Interface\IGearBox.cs" />
     <Compile Include="Enum\GPSAccuracyEnum.cs" />
     <Compile Include="Interface\IGPSSensor.cs" />
     <Compile Include="Interface\IDoorLock.cs" />
     <Compile Include="Interface\IGPSSensorListener.cs" />
     <Compile Include="Interface\IOnStar.cs" />
-    <Compile Include="Client\RemoteStartController.cs" />
-    <Compile Include="Facade\CarStartFacade.cs" />
+    <Compile Include="Client\NoFacade\RemoteStartController.cs" />
+    <Compile Include="Facade\SecurityFacade.cs" />
     <Compile Include="Interface\IFuelInjector.cs" />
-    <Compile Include="Ignition.cs" />
+    <Compile Include="Facade\EngineFacade.cs" />
     <Compile Include="Exception\IgnitionException.cs" />
     <Compile Include="Interface\IIgnition.cs" />
     <Compile Include="Interface\ISparkPlug.cs" />
@@ -57,10 +64,7 @@
     <Compile Include="OnStar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Client\Facade\" />
-    <Folder Include="Client\NoFacade\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

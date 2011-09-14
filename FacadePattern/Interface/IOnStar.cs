@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using FacadePattern.Interface;
 
-namespace FacadePattern.Client
+namespace FacadePattern.Interface
 {
     public interface IOnStar : IGPSSensorListener
     {

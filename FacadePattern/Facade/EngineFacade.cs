@@ -2,25 +2,31 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using FacadePattern.Interface;
 
 namespace FacadePattern
 {
-    public class Ignition : IIgnition 
+public class EngineFacade : IEngineFacade
 {
+    private IFuelPump fuelPump;
     private IFuelInjector fuelInjector;
     private ISparkPlug sparkPlug;
-    private  bool isStarted;
+    private IGearBox gearBox;
+    private bool isStarted;
 
-    public Ignition(IFuelInjector i, 
-                        ISparkPlug p) {
+    public EngineFacade(IFuelInjector i, 
+                        ISparkPlug s,
+                        IFuelPump p) {
         fuelInjector = i;
-        sparkPlug = p;
+        sparkPlug = s;
+        fuelPump = p;
         isStarted = false;
     }
 
     public void Start() {
         if(isStarted) return;
         try {
+            fuelPump.Pump(fuelPump.IgnitionVolume);
             fuelInjector.InjectFuel();
             sparkPlug.Spark();
             isStarted = true;

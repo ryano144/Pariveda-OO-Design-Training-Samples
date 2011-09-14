@@ -5,8 +5,8 @@ using System.Text;
 
 namespace FacadePattern.Interface
 {
-    public interface ISparkPlug
+    public interface IGearBox
     {
-        void Spark();
+        void Park();
     }
 }

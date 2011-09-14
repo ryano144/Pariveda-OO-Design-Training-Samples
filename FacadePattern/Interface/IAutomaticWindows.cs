@@ -5,8 +5,10 @@ using System.Text;
 
 namespace FacadePattern.Interface
 {
-    public interface ISparkPlug
+    public interface IAutomaticWindow
     {
-        void Spark();
+        bool IsDown { get; }
+
+        void Up();
     }
 }

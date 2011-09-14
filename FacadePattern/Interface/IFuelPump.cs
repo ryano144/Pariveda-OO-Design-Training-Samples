@@ -5,8 +5,10 @@ using System.Text;
 
 namespace FacadePattern.Interface
 {
-    public interface ISparkPlug
+    public interface IFuelPump
     {
-        void Spark();
+        object IgnitionVolume { get; set; }
+
+        void Pump(object p);
     }
 }

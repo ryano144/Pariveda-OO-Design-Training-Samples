@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FacadePattern
+namespace FacadePattern.Interface
 {
-    public class CarStartFacade
+    public interface ISecurityFacade
     {
+        void LockAndArm();
     }
 }
